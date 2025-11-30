@@ -3,93 +3,68 @@ gdjs.Untitled_32sceneCode.localVariables = [];
 gdjs.Untitled_32sceneCode.idToCallbackMap = new Map();
 gdjs.Untitled_32sceneCode.GDHomeObjects1= [];
 gdjs.Untitled_32sceneCode.GDHomeObjects2= [];
-gdjs.Untitled_32sceneCode.GDHomeObjects3= [];
 gdjs.Untitled_32sceneCode.GDHomeButtonObjects1= [];
 gdjs.Untitled_32sceneCode.GDHomeButtonObjects2= [];
-gdjs.Untitled_32sceneCode.GDHomeButtonObjects3= [];
 gdjs.Untitled_32sceneCode.GDSocialsObjects1= [];
 gdjs.Untitled_32sceneCode.GDSocialsObjects2= [];
-gdjs.Untitled_32sceneCode.GDSocialsObjects3= [];
 gdjs.Untitled_32sceneCode.GDDevelopersObjects1= [];
 gdjs.Untitled_32sceneCode.GDDevelopersObjects2= [];
-gdjs.Untitled_32sceneCode.GDDevelopersObjects3= [];
 gdjs.Untitled_32sceneCode.GDTransitionObjects1= [];
 gdjs.Untitled_32sceneCode.GDTransitionObjects2= [];
-gdjs.Untitled_32sceneCode.GDTransitionObjects3= [];
 gdjs.Untitled_32sceneCode.GDSocialsButtonObjects1= [];
 gdjs.Untitled_32sceneCode.GDSocialsButtonObjects2= [];
-gdjs.Untitled_32sceneCode.GDSocialsButtonObjects3= [];
 gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects1= [];
 gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects2= [];
-gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects3= [];
 gdjs.Untitled_32sceneCode.GDasterSocialObjects1= [];
 gdjs.Untitled_32sceneCode.GDasterSocialObjects2= [];
-gdjs.Untitled_32sceneCode.GDasterSocialObjects3= [];
 gdjs.Untitled_32sceneCode.GDchilliSocialObjects1= [];
 gdjs.Untitled_32sceneCode.GDchilliSocialObjects2= [];
-gdjs.Untitled_32sceneCode.GDchilliSocialObjects3= [];
 gdjs.Untitled_32sceneCode.GDtoxSocialObjects1= [];
 gdjs.Untitled_32sceneCode.GDtoxSocialObjects2= [];
-gdjs.Untitled_32sceneCode.GDtoxSocialObjects3= [];
 gdjs.Untitled_32sceneCode.GDjspectSocialObjects1= [];
 gdjs.Untitled_32sceneCode.GDjspectSocialObjects2= [];
-gdjs.Untitled_32sceneCode.GDjspectSocialObjects3= [];
 gdjs.Untitled_32sceneCode.GDalexSocialObjects1= [];
 gdjs.Untitled_32sceneCode.GDalexSocialObjects2= [];
-gdjs.Untitled_32sceneCode.GDalexSocialObjects3= [];
 gdjs.Untitled_32sceneCode.GDdiscordHitObjects1= [];
 gdjs.Untitled_32sceneCode.GDdiscordHitObjects2= [];
-gdjs.Untitled_32sceneCode.GDdiscordHitObjects3= [];
 gdjs.Untitled_32sceneCode.GDyoutubeHitObjects1= [];
 gdjs.Untitled_32sceneCode.GDyoutubeHitObjects2= [];
-gdjs.Untitled_32sceneCode.GDyoutubeHitObjects3= [];
 gdjs.Untitled_32sceneCode.GDrobloxHitObjects1= [];
 gdjs.Untitled_32sceneCode.GDrobloxHitObjects2= [];
-gdjs.Untitled_32sceneCode.GDrobloxHitObjects3= [];
 gdjs.Untitled_32sceneCode.GDtwitterHitObjects1= [];
 gdjs.Untitled_32sceneCode.GDtwitterHitObjects2= [];
-gdjs.Untitled_32sceneCode.GDtwitterHitObjects3= [];
 
 
-gdjs.Untitled_32sceneCode.asyncCallback11064692 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("Transition"), gdjs.Untitled_32sceneCode.GDTransitionObjects3);
-
-{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDTransitionObjects3.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDTransitionObjects3[i].setY(-(2600));
-}
-}
-gdjs.Untitled_32sceneCode.localVariables.length = 0;
-}
-gdjs.Untitled_32sceneCode.idToCallbackMap.set(11064692, gdjs.Untitled_32sceneCode.asyncCallback11064692);
-gdjs.Untitled_32sceneCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-/* Don't save Transition as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback11064692(runtimeScene, asyncObjectsList)), 11064692, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.Untitled_32sceneCode.asyncCallback9369252 = function (runtimeScene, asyncObjectsList) {
+gdjs.Untitled_32sceneCode.asyncCallback10437052 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
 {gdjs.evtTools.camera.setCameraX(runtimeScene, 1920, "", 0);
 }
-
-{ //Subevents
-gdjs.Untitled_32sceneCode.eventsList0(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Untitled_32sceneCode.localVariables.length = 0;
 }
-gdjs.Untitled_32sceneCode.idToCallbackMap.set(9369252, gdjs.Untitled_32sceneCode.asyncCallback9369252);
+gdjs.Untitled_32sceneCode.idToCallbackMap.set(10437052, gdjs.Untitled_32sceneCode.asyncCallback10437052);
+gdjs.Untitled_32sceneCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback10437052(runtimeScene, asyncObjectsList)), 10437052, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Untitled_32sceneCode.asyncCallback10439660 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
+{gdjs.evtTools.camera.setCameraX(runtimeScene, 5760, "", 0);
+}
+gdjs.Untitled_32sceneCode.localVariables.length = 0;
+}
+gdjs.Untitled_32sceneCode.idToCallbackMap.set(10439660, gdjs.Untitled_32sceneCode.asyncCallback10439660);
 gdjs.Untitled_32sceneCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -99,110 +74,21 @@ gdjs.Untitled_32sceneCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-for (const obj of gdjs.Untitled_32sceneCode.GDTransitionObjects1) asyncObjectsList.addObject("Transition", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback9369252(runtimeScene, asyncObjectsList)), 9369252, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback10439660(runtimeScene, asyncObjectsList)), 10439660, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Untitled_32sceneCode.asyncCallback10133740 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("Transition"), gdjs.Untitled_32sceneCode.GDTransitionObjects3);
-
-{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDTransitionObjects3.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDTransitionObjects3[i].setY(-(2600));
-}
-}
-gdjs.Untitled_32sceneCode.localVariables.length = 0;
-}
-gdjs.Untitled_32sceneCode.idToCallbackMap.set(10133740, gdjs.Untitled_32sceneCode.asyncCallback10133740);
-gdjs.Untitled_32sceneCode.eventsList2 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-/* Don't save Transition as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback10133740(runtimeScene, asyncObjectsList)), 10133740, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.Untitled_32sceneCode.asyncCallback10123260 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-{gdjs.evtTools.camera.setCameraX(runtimeScene, 5760, "", 0);
-}
-
-{ //Subevents
-gdjs.Untitled_32sceneCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.Untitled_32sceneCode.localVariables.length = 0;
-}
-gdjs.Untitled_32sceneCode.idToCallbackMap.set(10123260, gdjs.Untitled_32sceneCode.asyncCallback10123260);
-gdjs.Untitled_32sceneCode.eventsList3 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-for (const obj of gdjs.Untitled_32sceneCode.GDTransitionObjects1) asyncObjectsList.addObject("Transition", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback10123260(runtimeScene, asyncObjectsList)), 10123260, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.Untitled_32sceneCode.asyncCallback10242276 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("Transition"), gdjs.Untitled_32sceneCode.GDTransitionObjects3);
-
-{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDTransitionObjects3.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDTransitionObjects3[i].setY(-(2600));
-}
-}
-gdjs.Untitled_32sceneCode.localVariables.length = 0;
-}
-gdjs.Untitled_32sceneCode.idToCallbackMap.set(10242276, gdjs.Untitled_32sceneCode.asyncCallback10242276);
-gdjs.Untitled_32sceneCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-/* Don't save Transition as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback10242276(runtimeScene, asyncObjectsList)), 10242276, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.Untitled_32sceneCode.asyncCallback8858492 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Untitled_32sceneCode.asyncCallback10442396 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
 {gdjs.evtTools.camera.setCameraX(runtimeScene, 9600, "", 0);
 }
-
-{ //Subevents
-gdjs.Untitled_32sceneCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Untitled_32sceneCode.localVariables.length = 0;
 }
-gdjs.Untitled_32sceneCode.idToCallbackMap.set(8858492, gdjs.Untitled_32sceneCode.asyncCallback8858492);
-gdjs.Untitled_32sceneCode.eventsList5 = function(runtimeScene) {
+gdjs.Untitled_32sceneCode.idToCallbackMap.set(10442396, gdjs.Untitled_32sceneCode.asyncCallback10442396);
+gdjs.Untitled_32sceneCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -211,15 +97,14 @@ gdjs.Untitled_32sceneCode.eventsList5 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Untitled_32sceneCode.localVariables);
-for (const obj of gdjs.Untitled_32sceneCode.GDTransitionObjects1) asyncObjectsList.addObject("Transition", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback8858492(runtimeScene, asyncObjectsList)), 8858492, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.Untitled_32sceneCode.asyncCallback10442396(runtimeScene, asyncObjectsList)), 10442396, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Untitled_32sceneCode.eventsList6 = function(runtimeScene) {
+};gdjs.Untitled_32sceneCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -266,12 +151,12 @@ gdjs.copyArray(runtimeScene.getObjects("Transition"), gdjs.Untitled_32sceneCode.
 }
 }
 {for(var i = 0, len = gdjs.Untitled_32sceneCode.GDTransitionObjects1.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDTransitionObjects1[i].getBehavior("Tween").addObjectPositionYTween2("TweenTransition", 2600, "linear", 0.5, false);
+    gdjs.Untitled_32sceneCode.GDTransitionObjects1[i].getBehavior("Tween").addObjectPositionYTween2("TweenTransition", 10000, "linear", 1.5, false);
 }
 }
 
 { //Subevents
-gdjs.Untitled_32sceneCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.Untitled_32sceneCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -322,12 +207,12 @@ gdjs.copyArray(runtimeScene.getObjects("Transition"), gdjs.Untitled_32sceneCode.
 }
 }
 {for(var i = 0, len = gdjs.Untitled_32sceneCode.GDTransitionObjects1.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDTransitionObjects1[i].getBehavior("Tween").addObjectPositionYTween2("TweenTransition", 2600, "linear", 0.5, false);
+    gdjs.Untitled_32sceneCode.GDTransitionObjects1[i].getBehavior("Tween").addObjectPositionYTween2("TweenTransition", 10000, "linear", 1.5, false);
 }
 }
 
 { //Subevents
-gdjs.Untitled_32sceneCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.Untitled_32sceneCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -378,12 +263,12 @@ gdjs.copyArray(runtimeScene.getObjects("Transition"), gdjs.Untitled_32sceneCode.
 }
 }
 {for(var i = 0, len = gdjs.Untitled_32sceneCode.GDTransitionObjects1.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDTransitionObjects1[i].getBehavior("Tween").addObjectPositionYTween2("TweenTransition", 2600, "linear", 0.5, false);
+    gdjs.Untitled_32sceneCode.GDTransitionObjects1[i].getBehavior("Tween").addObjectPositionYTween2("TweenTransition", 10000, "linear", 1.5, false);
 }
 }
 
 { //Subevents
-gdjs.Untitled_32sceneCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.Untitled_32sceneCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -457,9 +342,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) < 980;
+isConditionTrue_0 = gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) < runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber();
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, 980, "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), "", 0);
 }
 }
 
@@ -678,6 +563,20 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
+}
+}
+
+}
+
+
 };
 
 gdjs.Untitled_32sceneCode.func = function(runtimeScene) {
@@ -685,102 +584,70 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.Untitled_32sceneCode.GDHomeObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDHomeObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDHomeObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDHomeButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDHomeButtonObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDHomeButtonObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDSocialsObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDDevelopersObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDTransitionObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDTransitionObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDTransitionObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsButtonObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDSocialsButtonObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDasterSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDasterSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDasterSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDchilliSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDchilliSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDchilliSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDtoxSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDtoxSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDtoxSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDjspectSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDjspectSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDjspectSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDalexSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDalexSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDalexSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDdiscordHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDdiscordHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDdiscordHitObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDyoutubeHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDyoutubeHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDyoutubeHitObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDrobloxHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDrobloxHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDrobloxHitObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDtwitterHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDtwitterHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDtwitterHitObjects3.length = 0;
 
-gdjs.Untitled_32sceneCode.eventsList6(runtimeScene);
+gdjs.Untitled_32sceneCode.eventsList3(runtimeScene);
 gdjs.Untitled_32sceneCode.GDHomeObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDHomeObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDHomeObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDHomeButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDHomeButtonObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDHomeButtonObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDSocialsObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDDevelopersObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDTransitionObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDTransitionObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDTransitionObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDSocialsButtonObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDSocialsButtonObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDDevelopersButtonObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDasterSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDasterSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDasterSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDchilliSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDchilliSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDchilliSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDtoxSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDtoxSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDtoxSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDjspectSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDjspectSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDjspectSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDalexSocialObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDalexSocialObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDalexSocialObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDdiscordHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDdiscordHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDdiscordHitObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDyoutubeHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDyoutubeHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDyoutubeHitObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDrobloxHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDrobloxHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDrobloxHitObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDtwitterHitObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDtwitterHitObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDtwitterHitObjects3.length = 0;
 
 
 return;
